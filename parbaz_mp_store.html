@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101827">
+<title>Parbaz.mp | فروشگاه محصولات دیجیتال</title>
+<style>
+:root{--bg:#0b1220;--panel:#111c2e;--panel2:#17243a;--text:#f4f7fb;--muted:#a8b4c7;--line:#26364e;--accent:#8b7cff;--accent2:#37d6b0;--gold:#ffd27a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% -10%,#27365d 0,transparent 42%),var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
+a{color:inherit;text-decoration:none}button,input{font:inherit}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#0b1220eF;border-bottom:1px solid var(--line);backdrop-filter:blur(16px)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:11px;font-weight:900;font-size:21px;letter-spacing:.2px}.logo{width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#4ddbc2);display:grid;place-items:center;color:#09111f;font-weight:1000;box-shadow:0 8px 24px #8b7cff44}
+.navlinks{display:flex;gap:24px;color:var(--muted);font-size:14px}.navlinks a:hover{color:white}.cartbtn,.btn{border:0;border-radius:13px;padding:11px 17px;background:linear-gradient(135deg,var(--accent),#6b8cff);color:white;font-weight:800;cursor:pointer;box-shadow:0 8px 22px #7569ef30}.cartbtn{white-space:nowrap}.hero{padding:78px 0 56px;display:grid;grid-template-columns:1.12fr .88fr;gap:44px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;color:#bcb5ff;background:#8b7cff1b;border:1px solid #8b7cff55;border-radius:99px;padding:6px 12px;font-size:13px}.hero h1{font-size:clamp(36px,5vw,58px);line-height:1.35;margin:18px 0 12px;letter-spacing:-1.5px}.gradient{background:linear-gradient(90deg,#a99fff,#54e0c1);-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{color:var(--muted);font-size:17px;max-width:600px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn.secondary{background:transparent;border:1px solid var(--line);box-shadow:none;color:var(--text)}.hero-art{min-height:330px;border:1px solid #344464;border-radius:28px;background:linear-gradient(145deg,#1b2945,#111b2d 65%);padding:25px;position:relative;overflow:hidden;box-shadow:0 25px 70px #0005}.orb{position:absolute;width:240px;height:240px;border-radius:50%;background:linear-gradient(135deg,#8b7cff,#3ad7b3);filter:blur(1px);opacity:.22;right:-55px;top:-70px}.mock{position:relative;z-index:1;border:1px solid #53617a;background:#111b2b;border-radius:18px;padding:18px;transform:rotate(-3deg);box-shadow:0 18px 45px #0006}.mocktop{display:flex;justify-content:space-between;color:#b8c3d5;font-size:12px}.mocktitle{font-size:25px;font-weight:900;margin:24px 0 5px}.mocksub{color:var(--muted);font-size:13px}.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}.tile{height:88px;border-radius:13px;display:grid;place-items:center;font-size:30px;background:linear-gradient(135deg,#8b7cff44,#38d9b344);border:1px solid #6876a055}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:12px 0 68px}.stat{background:#111c2eaa;border:1px solid var(--line);border-radius:16px;padding:15px;text-align:center}.stat b{display:block;font-size:20px}.stat span{font-size:12px;color:var(--muted)}
+.section{padding:24px 0 70px}.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:15px;margin-bottom:22px}.section h2{font-size:29px;margin:0}.sectionhead p{color:var(--muted);margin:4px 0 0}.tools{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.search{flex:1;min-width:190px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:11px 14px;color:white;outline:none}.search:focus{border-color:var(--accent)}.filters{display:flex;gap:8px;flex-wrap:wrap}.filter{background:var(--panel);border:1px solid var(--line);border-radius:99px;color:var(--muted);padding:9px 14px;cursor:pointer}.filter.active{background:#8b7cff22;border-color:var(--accent);color:#d6d1ff}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.product{background:linear-gradient(180deg,#17243a,#111c2e);border:1px solid var(--line);border-radius:20px;overflow:hidden;transition:.2s}.product:hover{transform:translateY(-4px);border-color:#6f68bd}.cover{height:155px;display:grid;place-items:center;font-size:52px;position:relative;background:radial-gradient(circle at 25% 20%,#a99fff66,transparent 45%),linear-gradient(135deg,#243655,#16243a)}.cover:after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,transparent,#42d9b015)}.tag{position:absolute;top:12px;right:12px;background:#0b1220bb;border:1px solid #ffffff22;border-radius:99px;padding:3px 9px;font-size:11px;color:#d7d3ff;z-index:1}.pbody{padding:17px}.pbody h3{margin:0 0 5px;font-size:17px}.pbody p{margin:0;color:var(--muted);font-size:13px;min-height:48px}.pfoot{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:17px}.price{font-weight:900;color:#75e6c9}.add{border:1px solid #8b7cff88;background:#8b7cff20;color:#ddd9ff;border-radius:10px;padding:8px 12px;cursor:pointer;font-size:12px}.add:hover{background:#8b7cff44}.empty{grid-column:1/-1;text-align:center;padding:35px;color:var(--muted);border:1px dashed var(--line);border-radius:16px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:18px}.aboutbox{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:23px}.aboutbox h3{margin:0 0 8px}.aboutbox p{margin:0;color:var(--muted);font-size:14px}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.overlay{position:fixed;inset:0;background:#0009;z-index:20;display:none}.overlay.show{display:block}.drawer{position:absolute;left:0;top:0;height:100%;width:min(420px,92vw);background:#101a2b;border-right:1px solid var(--line);padding:22px;overflow:auto;box-shadow:15px 0 50px #0006}.drawerhead{display:flex;justify-content:space-between;align-items:center}.close{border:1px solid var(--line);background:transparent;color:white;border-radius:9px;padding:6px 11px;cursor:pointer}.cartitem{display:flex;justify-content:space-between;gap:10px;border-bottom:1px solid var(--line);padding:13px 0}.cartitem small{color:var(--muted)}.remove{background:none;border:0;color:#ff9d9d;cursor:pointer}.total{display:flex;justify-content:space-between;padding:18px 0;font-weight:900}.checkout{width:100%;margin-top:8px}.note{color:var(--muted);font-size:12px}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#1d2d45;border:1px solid #53617a;border-radius:12px;padding:10px 16px;z-index:30;display:none}.toast.show{display:block}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:48px}.hero-art{min-height:280px}.grid{grid-template-columns:repeat(2,1fr)}.navlinks{display:none}}
+@media(max-width:540px){.grid{grid-template-columns:1fr}.stats{gap:7px}.stat{padding:11px 5px}.stat b{font-size:17px}.stat span{font-size:10px}.sectionhead{display:block}.hero h1{font-size:37px}.about{grid-template-columns:1fr}.nav{height:66px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#"><span class="logo">P</span><span>Parbaz<span class="gradient">.mp</span></span></a>
+  <nav class="navlinks"><a href="#shop">فروشگاه</a><a href="#about">درباره ما</a><a href="#contact">ارتباط</a></nav>
+  <button class="cartbtn" onclick="openCart()">سبد خرید <span id="cartCount">۰</span></button>
+</div></header>
+<main class="wrap">
+<section class="hero">
+ <div>
+  <span class="eyebrow">✦ فروشگاه فایل‌ها و ابزارهای دیجیتال</span>
+  <h1>ابزارهای هوشمند برای <span class="gradient">کارهای بزرگ‌تر</span></h1>
+  <p>قالب‌ها، فایل‌های کاربردی و محصولات دیجیتال را ساده‌تر پیدا کن. یک فروشگاه جمع‌وجور برای ایده‌هایی که به کارت می‌آیند.</p>
+  <div class="actions"><a class="btn" href="#shop">مشاهده محصولات</a><a class="btn secondary" href="#about">آشنایی با فروشگاه</a></div>
+ </div>
+ <div class="hero-art"><div class="orb"></div><div class="mock">
+  <div class="mocktop"><span>PARBAZ DIGITAL STORE</span><span>✦ منتخب‌ها</span></div>
+  <div class="mocktitle">دانلود کن، <span class="gradient">ساده‌تر بساز.</span></div>
+  <div class="mocksub">فایل‌های دیجیتال برای خلاقیت و بهره‌وری</div>
+  <div class="tiles"><div class="tile">✎</div><div class="tile">▦</div><div class="tile">✧</div></div>
+ </div></div>
+</section>
+<div class="stats">
+ <div class="stat"><b>فوری</b><span>دسترسی به فایل پس از آماده‌سازی سفارش</span></div>
+ <div class="stat"><b>دیجیتال</b><span>بدون ارسال فیزیکی</span></div>
+ <div class="stat"><b>ساده</b><span>خرید آسان و سریع</span></div>
+</div>
+<section class="section" id="shop">
+ <div class="sectionhead"><div><h2>محصولات فروشگاه</h2><p>محصول مناسب خودت را پیدا کن.</p></div></div>
+ <div class="tools"><input id="search" class="search" placeholder="جست‌وجو در محصولات..." oninput="renderProducts()"><div class="filters">
+  <button class="filter active" data-cat="همه" onclick="setCategory('همه',this)">همه</button>
+  <button class="filter" data-cat="قالب" onclick="setCategory('قالب',this)">قالب‌ها</button>
+  <button class="filter" data-cat="محتوا" onclick="setCategory('محتوا',this)">محتوا</button>
+  <button class="filter" data-cat="ابزار" onclick="setCategory('ابزار',this)">ابزارها</button>
+ </div></div>
+ <div class="grid" id="products"></div>
+</section>
+<section class="section" id="about">
+ <div class="sectionhead"><div><h2>چرا Parbaz.mp؟</h2><p>تجربه‌ای ساده برای تهیه محصولات دیجیتال.</p></div></div>
+ <div class="about">
+  <div class="aboutbox"><h3>✦ انتخاب کاربردی</h3><p>محصولات این فروشگاه با تمرکز بر استفاده آسان و صرفه‌جویی در زمان معرفی می‌شوند.</p></div>
+  <div class="aboutbox"><h3>⬡ شفاف و روشن</h3><p>پیش از خرید، توضیحات و جزئیات هر محصول را بررسی کن. مشخصات و شرایط تحویل باید برای هر محصول تکمیل شود.</p></div>
+ </div>
+</section>
+<section class="section" id="contact">
+ <div class="aboutbox"><h3>ارتباط با Parbaz.mp</h3><p>برای پرسش درباره محصولات یا همکاری، راه ارتباطی فروشگاه را اینجا وارد می‌کنیم.</p><p style="margin-top:10px;color:#d5d0ff">ایمیل یا شناسه پشتیبانی: <b>پس از راه‌اندازی تکمیل شود</b></p></div>
+</section>
+</main>
+<footer><div class="wrap foot"><span>© ۲۰۲۶ Parbaz.mp — تمامی حقوق محفوظ است.</span><span>ساخته‌شده با ایده و خلاقیت ✦</span></div></footer>
+<div class="overlay" id="overlay" onclick="if(event.target===this)closeCart()"><aside class="drawer">
+ <div class="drawerhead"><h3>سبد خرید</h3><button class="close" onclick="closeCart()">بستن ×</button></div>
+ <div id="cartItems"></div><div class="total"><span>جمع کل</span><span id="total">۰ تومان</span></div>
+ <button class="btn checkout" onclick="prepareOrder()">ثبت درخواست سفارش</button>
+ <p class="note">این نسخه نمایشی است؛ پرداخت آنلاین و تحویل خودکار هنوز فعال نشده‌اند.</p>
+</aside></div>
+<div class="toast" id="toast"></div>
+<script>
+const products=[
+{id:1,name:"بسته قالب پست اینستاگرام",cat:"قالب",desc:"مجموعه قالب‌های قابل ویرایش برای شروع طراحی محتوای شبکه‌های اجتماعی.",price:0,icon:"▧",tag:"نمونه نمایشی"},
+{id:2,name:"دفتر برنامه‌ریزی دیجیتال",cat:"ابزار",desc:"قالب برنامه‌ریزی هفتگی برای نظم دادن به کارها و هدف‌ها.",price:0,icon:"▤",tag:"نمونه نمایشی"},
+{id:3,name:"بسته ایده و کپشن محتوا",cat:"محتوا",desc:"ایده‌های آماده برای نوشتن کپشن و تقویم محتوایی کسب‌وکار.",price:0,icon:"✍",tag:"نمونه نمایشی"},
+{id:4,name:"قالب رزومه مدرن",cat:"قالب",desc:"چیدمان ساده و حرفه‌ای برای معرفی مهارت‌ها و سوابق.",price:0,icon:"▣",tag:"نمونه نمایشی"},
+{id:5,name:"چک‌لیست مدیریت پروژه",cat:"ابزار",desc:"فایل کاربردی برای پیگیری وظایف و مراحل انجام پروژه.",price:0,icon:"☑",tag:"نمونه نمایشی"},
+{id:6,name:"راهنمای شروع تولید محتوا",cat:"محتوا",desc:"راهنمای مقدماتی برای برنامه‌ریزی و ساخت محتوای بهتر.",price:0,icon:"✧",tag:"نمونه نمایشی"}
+];
+let category="همه",cart=[];
+const fa=n=>new Intl.NumberFormat("fa-IR").format(n);
+function renderProducts(){
+ const q=document.getElementById("search").value.trim().toLowerCase();
+ const list=products.filter(p=>(category==="همه"||p.cat===category)&&(p.name+" "+p.desc).toLowerCase().includes(q));
+ document.getElementById("products").innerHTML=list.length?list.map(p=>`<article class="product"><div class="cover"><span class="tag">${p.tag}</span>${p.icon}</div><div class="pbody"><h3>${p.name}</h3><p>${p.desc}</p><div class="pfoot"><span class="price">قیمت: در انتظار تعیین</span><button class="add" onclick="addToCart(${p.id})">افزودن به سبد</button></div></div></article>`).join(""):'<div class="empty">محصولی با این مشخصات پیدا نشد.</div>';
+}
+function setCategory(c,el){category=c;document.querySelectorAll(".filter").forEach(x=>x.classList.remove("active"));el.classList.add("active");renderProducts()}
+function toast(t){let el=document.getElementById("toast");el.textContent=t;el.classList.add("show");setTimeout(()=>el.classList.remove("show"),2200)}
+function addToCart(id){let p=products.find(x=>x.id===id);let item=cart.find(x=>x.id===id);if(item)item.qty++;else cart.push({...p,qty:1});updateCart();toast("به سبد خرید اضافه شد")}
+function updateCart(){
+ document.getElementById("cartCount").textContent=fa(cart.reduce((s,x)=>s+x.qty,0));
+ document.getElementById("cartItems").innerHTML=cart.length?cart.map(x=>`<div class="cartitem"><div><b>${x.name}</b><br><small>تعداد: ${fa(x.qty)} · قیمت هنوز تعیین نشده</small></div><button class="remove" onclick="removeItem(${x.id})">حذف</button></div>`).join(""):'<p class="note">سبد خریدت هنوز خالی است.</p>';
+ document.getElementById("total").textContent="پس از تعیین قیمت";
+}
+function removeItem(id){cart=cart.filter(x=>x.id!==id);updateCart()}
+function openCart(){document.getElementById("overlay").classList.add("show")}
+function closeCart(){document.getElementById("overlay").classList.remove("show")}
+function prepareOrder(){if(!cart.length){toast("سبد خرید خالی است");return}let txt="درخواست بررسی سفارش از Parbaz.mp:\n"+cart.map(x=>x.name+" × "+x.qty).join("\n")+"\nلطفاً قیمت و شرایط تحویل اعلام شود.";if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(()=>toast("متن درخواست کپی شد؛ پرداخت هنوز فعال نیست")).catch(()=>alert(txt))}else alert(txt)}
+renderProducts();updateCart();
+</script>
+</body>
+</html>
